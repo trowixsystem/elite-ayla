@@ -1,0 +1,52 @@
+🤖 Elite Ayla: Yapay Zeka Asistanı - Resmi Kullanım Kılavuzu
+Hoş geldin! Elite Ayla, karmaşık işlemleri basitleştirmek, verileri yönetmek ve seninle akıllı bir etkileşim kurmak için geliştirilmiş Python tabanlı bir yapay zeka asistanıdır.
+
+📋 Proje Genel Bakış
+Elite Ayla, modüler bir yapıya sahiptir. Ana beyni main.py dosyasıdır ve görevlerini Elite Ayla Hizmetleri klasörü altındaki özelleştirilmiş modüllerle gerçekleştirir. Bilgi tabanı ise komutlar.json dosyasında saklanır.
+
+🛠️ Nasıl Çalışır?
+Sistemin mimarisi, kullanıcı dostu bir etkileşim ve arka planda güçlü bir Python motoruna dayanır:
+
+Giriş: Kullanıcı arayüzden bir mesaj gönderir.
+
+İşleme: Sistem, mesajı komutlar.json içerisinde arar. Eğer eşleşen bir komut yoksa, "Bunu öğret" özelliği devreye girer.
+
+Hizmet Çağrısı: Karmaşık görevlerde, asistan ilgili modülü Elite Ayla Hizmetleri klasöründen çağırır ve çalıştırır.
+
+📖 Kullanıcı Talimatları
+1. Sohbet ve Etkileşim
+Asistanınla günlük bir insanla konuşur gibi sohbet edebilirsin. Basit selamlaşmalar (Merhaba, Naber) asistan tarafından otomatik tanınır.
+
+2. Yeni Komutlar Öğretme
+Ayla'nın bir şeyi bilmediğini fark ettiğinde şu adımları izle:
+
+Asistan sana "Bunu bilmiyorum, öğretir misin?" diyecektir.
+
+Ona istediğin komutu ve beklediğin cevabı belirt.
+
+Asistan, komutlar.json dosyasına bu yeni bilgiyi işleyecektir.
+
+3. Hizmet Modüllerini Kullanma
+Asistanına özel görevler vermek için Elite Ayla Hizmetleri klasöründeki Python dosyalarını kullanabilirsin. Örneğin, sistemine yeni bir özellik eklemek istersen, klasörün içine yeni bir .py dosyası eklemen yeterlidir; Ayla bunu otomatik olarak tanıyacaktır.
+
+⚙️ Teknik Yapılandırma
+Sistemini düzenlemek istersen şu dosyalara dikkat etmelisiniz:
+
+main.py: Sistemin ana giriş noktası.
+
+komutlar.json: Öğrenilen tüm komutların hafızası.
+
+requirements.txt: Sistemin çalışması için gerekli olan streamlit kütüphanesi tanımlıdır.
+
+/Elite Ayla Hizmetleri: Genişletilebilir yetenekler klasörü.
+
+📞 İletişim ve Destek
+Proje ile ilgili her türlü geliştirme önerisi, hata bildirimi veya iş birliği için bana aşağıdaki adreslerden ulaşabilirsin:
+
+Outlook: denizlacin40@hotmail.com
+
+Gmail: denizaraslacin40@gmail.com
+
+Not: E-posta gönderirken konuyu "Elite Ayla Asistanı Hakkında" olarak belirtmen, sana daha hızlı dönüş yapmamı sağlayacaktır.
+
+Deniz Aras Laçin tarafından geliştirilmiştir. © 2026.
